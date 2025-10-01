@@ -23,6 +23,7 @@ dependencies = [
     "pip",
     "python-dotenv",
     "ruff",
+    "scikit-learn>=1.7.2",
     "tqdm",
     "typer",
 ]
