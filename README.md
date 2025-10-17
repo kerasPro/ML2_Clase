@@ -59,3 +59,10 @@ Clases del curso de ML2
 
 --------
 
+Pasos para Feast
+
+
+uv run feast init fs_ml2
+uv run feast ui --port 7001
+uv run feast apply
+uv run feast materialize-incremental $(python -c "from datetime import datetime; print(datetime.now().isoformat())")

@@ -16,9 +16,13 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 dependencies = [
+    "catboost>=1.2.8",
+    "dagshub>=0.6.3",
     "feast>=0.53.0",
     "jupyterlab>=4.4.9",
+    "lightgbm>=4.6.0",
     "loguru",
+    "mlflow<3",
     "pandas>=2.3.3",
     "pip",
     "python-dotenv",
@@ -26,6 +30,7 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "tqdm",
     "typer",
+    "xgboost>=3.0.5",
 ]
 requires-python = "~=3.12.0"
 
