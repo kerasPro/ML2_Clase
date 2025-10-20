@@ -28,8 +28,10 @@ dependencies = [
     "python-dotenv",
     "ruff",
     "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
     "tqdm",
     "typer",
+    "umap-learn>=0.5.9.post2",
     "xgboost>=3.0.5",
 ]
 requires-python = "~=3.12.0"
