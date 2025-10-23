@@ -89,6 +89,11 @@ dsrp_feature_service = FeatureService(
     features=[great_feature_view],
 )
 
+feature_service_all_data = FeatureService(
+    name="feature_service_all_data",
+    features=[pc_booking_view, great_feature_view],
+)
+
 # Un "menú" que sirve solo las características base.
 fs_service_pc = FeatureService(
     name="fs_service_pc",
