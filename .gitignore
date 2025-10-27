@@ -8,6 +8,9 @@
 *.swp
 *.swo
 
+# Feast specific
+feast_service/fs_ml2/feature_repo/data/
+
 ## https://github.com/github/gitignore/blob/e8554d85bf62e38d6db966a50d2064ac025fd82a/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
@@ -188,4 +191,4 @@ cython_debug/
 .ruff_cache/
 
 # PyPI configuration file
-.pypirc
+.pypircfeast_service/fs_ml2/feature_repo/data/online_store.db
