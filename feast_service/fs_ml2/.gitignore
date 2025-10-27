@@ -45,5 +45,5 @@ coverage.xml
 Thumbs.db
 
 # Feast specific
-*.parquet
 *.db
+feast_service/fs_ml2/feature_repo/data/
