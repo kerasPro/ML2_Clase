@@ -38,6 +38,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "sentence-transformers>=5.1.1",
     "tqdm",
+    "tslearn>=0.6.3",
     "typer",
     "umap-learn>=0.5.9.post2",
     "xgboost>=3.0.5",
